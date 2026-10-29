@@ -9,7 +9,7 @@ import video3 from '../assets/video3.gif'
 
 const Videos = () => {
     return (
-        <section className={styles.videos}>
+        <section id='videos'>
             <div className={styles.videoDiv}>
                 <img className={styles.video} src={pic1}></img>
                 <img className={styles.video} src={pic1}></img>

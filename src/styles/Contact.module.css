@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     padding: 20px;
+    z-index:3;
 
     /*text-align: center;*/
 }
@@ -20,7 +21,7 @@
     justify-content: center;
 }
 
-.formContainer {
+.formDiv {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -28,14 +29,14 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-.formContainer label {
+.formDiv label {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.formContainer input,
-.formContainer textarea {
+.formDiv input,
+.formDiv textarea {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
@@ -44,16 +45,16 @@
     border-radius: 5px;
 }
 
-.formContainer textarea {
+.formDiv textarea {
     min-height: 150px;
     resize: vertical;
 }
 
-.formContainer .message {
+.formDiv .message {
     grid-column: 1 / -1;
 }
 
-.formContainer button {
+.formDivbutton {
     grid-column: 1 / -1;
     padding: 12px;
     font-size: 16px;
@@ -71,4 +72,25 @@
 
 input, textarea {
     border-radius: 10px;
+}
+
+.icon {
+    max-width: 50px;
+}
+
+.buttonsDiv button {
+    background: none;
+    border: none;
+    padding:.5rem;
+}
+
+.buttonsDiv button:hover {
+    background: antiquewhite;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.buttonsDiv {
+    text-align: center;
+    padding-bottom: 2rem;
 }

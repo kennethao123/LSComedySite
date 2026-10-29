@@ -1,4 +1,4 @@
-.videos {
+#videos {
     /*background-image: url('../assets/videos.jpg');*/
 
 }
@@ -12,6 +12,7 @@
     background-color: black;
     justify-content: center;
     display: flex;
+    z-index: 2;
 }
 
 .video {
