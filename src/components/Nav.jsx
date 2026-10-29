@@ -15,11 +15,12 @@ const Nav = () => {
         //Update URL hash
         window.history.pushState(null, '', `/#${id}`);
 
+        const top = target.getBoundingClientRect().top + window.scrollY;
 
-        document.getElementById(`${id}`)?.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-        })
+        window.scrollTo({
+            top,
+            behavior: "smooth"
+        });
     }
 
     return (
