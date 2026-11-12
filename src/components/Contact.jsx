@@ -1,6 +1,9 @@
 import styles from "../styles/Contact.module.css";
 import instagram from "../assets/instagram.png";
+import tiktok from "../assets/tik-tok.png";
 const instagramUrl = 'https://www.instagram.com/yiyanyam/';
+const tiktokUrl = 'https://www.tiktok.com/discover/yiyanyam';
+
 
 
 const Contact = () => {
@@ -18,20 +21,15 @@ const Contact = () => {
                 <div className={styles.card}>
                     <div className={styles.buttonsDiv}>
                         <h3>Social Media</h3>
-                        <button onClick={ () => newTab(instagramUrl) }><img className={styles.icon} src={instagram} alt=""/></button>
+                        <button onClick={ () => newTab(instagramUrl) }><img className={styles.icon} src={instagram} alt="ig"/></button>
+                        <button onClick={ () => newTab(tiktokUrl) }><img className={styles.icon} src={tiktok} alt="tiktok"/></button>
                     </div>
                 </div>
 
                 <form className={styles.formDiv}>
                     <label htmlFor='name'>Name: <input id='name' type="text"/></label>
-
-
                     <label htmlFor='email'>Email: <input id='email' type="text"/></label>
-
-
                     <label className={styles.message} htmlFor='message'>Message: <textarea id='message'/></label>
-
-
 
                     <button>Submit</button>
                 </form>

@@ -1,27 +1,13 @@
 const DatesDB = [
     {
-        date: '7/27',
-        location: 'home'
+        date: '',
+        location: ''
     },
+
     {
-        date: '8/8',
-        location: 'SF'
-    },{
-        date: '8/10',
-        location: 'Los Angeles'
-    },{
-        date: '8/15',
-        location: 'Seattle'
-    },{
-        date: '8/20',
-        location: 'bar'
-    },{
-        date: '8/25',
-        location: 'ktown'
-    },{
-        date: '9/1',
-        location: 'Irvine'
-    },
+        date: '11/22 & 11/27',
+        location: 'Barcelona, Spain - The Comedy Club House'
+    }
 ]
 
 export default DatesDB;

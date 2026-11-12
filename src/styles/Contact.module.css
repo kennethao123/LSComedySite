@@ -28,6 +28,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+
+    button {
+        width: fit-content;
+    }
 }
 .formDiv label {
     display: flex;
