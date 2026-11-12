@@ -12,7 +12,7 @@ const Videos = () => {
         <section id='videos'>
             <div className={styles.videoDiv}>
                 <img className={styles.video} src={pic1}></img>
-                <img className={styles.video} src={pic1}></img>
+                {/*<img className={styles.video} src={pic1}></img>*/}
 
                 {/*<h2 className={styles.overlayText}>pic 1</h2>*/}
             </div>
@@ -23,9 +23,9 @@ const Videos = () => {
             </div>
             <div className={styles.videoDiv}>
                 <img className={styles.video} src={pic3}></img>
-                <img className={styles.video} src={pic3}></img>
+                {/*<img className={styles.video} src={pic3}></img>*/}
 
-                <img className={styles.video} src={pic3}></img>
+                {/*<img className={styles.video} src={pic3}></img>*/}
 
                 {/*<h2 className={styles.overlayText}>pic 3</h2>*/}
 

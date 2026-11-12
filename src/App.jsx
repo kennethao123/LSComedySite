@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <Nav/>
+      <Nav className={styles.main}/>
       <main className={styles.main}>
         <Home/>
         <Dates/>
