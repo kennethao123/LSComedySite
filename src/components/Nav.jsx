@@ -24,14 +24,14 @@ const Nav = () => {
     }
 
     return (
-        <div className={styles.navBar}>
+        <section className={styles.navBar}>
             <a id={styles.yourName} href="/#">Lillian Sam</a>
             <div className={styles.linksDiv}>
                 <a href="/#dates" onClick={(e) => jump(e, 'dates')}>Dates</a>
                 <a href="/#videos" onClick={(e) => jump(e, 'videos')}>Videos</a>
                 <a href="/#contact" onClick={(e) => jump(e, 'contact')}>Contact</a>
             </div>
-        </div>
+        </section>
     )
 }
 
