@@ -19,6 +19,10 @@ h1 {
 
 
 @media (max-width: 768px) {
+    .app {
+        font-size: 12px;
+    }
+
     section {
         max-width: 100%;
         margin-left: auto;

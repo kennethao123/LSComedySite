@@ -14,7 +14,7 @@ import { Outlet, RouterProvider } from "react-router"
 function App() {
 
   return (
-    <>
+    <app className={styles.app}>
       <Nav className={styles.main}/>
       <main className={styles.main}>
         <Home/>
@@ -24,7 +24,7 @@ function App() {
       </main>
 
 
-    </>
+    </app>
   )
 }
 
