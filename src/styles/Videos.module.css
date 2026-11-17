@@ -3,27 +3,12 @@
 
 }
 
-.videoDiv {
-    /*width: 100%;*/
-    /*height: 100vh;*/
-    /*height: 100vh;*/
-    position: sticky;
-    top: 0;
-    background-color: black;
-    justify-content: center;
-    display: flex;
-    z-index: 2;
-
-    img {
-        width: fit-content;
-    }
-}
-
 .video {
     width: auto;
     max-height: 60vh;
 }
 
+/*not used anymore*/
 .overlayText {
     position: absolute;
     top: 50%;
@@ -31,16 +16,18 @@
     color: green;
 }
 
-@media (max-width: 768px) {
-    .videoDiv {
-        display: block;
-        justify-items: center;
-        align-items: center;
+.videoDiv {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    justify-content: center;
+    z-index: 2;
+    display: block;
+    justify-items: center;
+    align-items: center;
 
-        img {
-            display:block;
-            max-width: 100%;
-        }
+    img {
+        display:block;
+        max-width: 100%;
     }
-
 }
