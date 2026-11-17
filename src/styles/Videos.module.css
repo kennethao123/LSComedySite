@@ -33,11 +33,9 @@
 
 @media (max-width: 768px) {
     .videoDiv {
-        color: green;
         display: block;
         justify-items: center;
         align-items: center;
-        /*width: fit-content;*/
 
         img {
             display:block;
